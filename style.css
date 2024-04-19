@@ -1,15 +1,53 @@
-#page 
+body 
 {
-    background-color:black;
-    color:white;
 }
 
-.link
+a
 {
-    color:cadetblue;
+    color:black;
 }
 
-.para
+p, ul, ol
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-seif
+}
+
+.button
+{
+    display: inline-block;
+    width: 20%;
+    padding: 16px;
+    background-color: lightgrey;
+    color:black;
+    border: 2px solid gray;
+}
+
+.button:hover
+{
+    background-color:grey;
+}
+
+.description
+{
+    display: inline;
+    margin-left: auto;
+}
+
+.container
+{
+  width:69%;
+  display:inline-block;
+}
+
+.recipe
+{
+    width:90%;
+    margin:  -2px 5%;
+    padding: 8px;
+    border: 2px solid black;
+}
+.recipe-box
+{
+    width:auto;
+    margin:5%
 }
